@@ -2,14 +2,14 @@ package com.example.examenlp2.serviceImpl;
 
 import com.example.examenlp2.entity.Tipo;
 import com.example.examenlp2.repository.TipoRepository;
-import com.example.examenlp2.service.TipoServicve;
+import com.example.examenlp2.service.TipoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 @Service
-public class TipoServiceImpl implements TipoServicve {
+public class TipoServiceImpl implements TipoService {
     @Autowired
     private TipoRepository tipoRepository;
     @Override

@@ -24,7 +24,6 @@ public class AuthController {
     @Autowired
     private AuthService authService;
 
-    // Build Login REST API
     @PostMapping("/login")
     public ResponseEntity<AuthResponseDto> login(@RequestBody LoginDto loginDto){
 
